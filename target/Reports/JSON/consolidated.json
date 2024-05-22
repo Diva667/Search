@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-22T04:22:59.615Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11941574600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To search Deals inside Deal Search page with iterator",
+        "description": "",
+        "id": "validating-the-search-functionality-of-story;to-search-deals-inside-deal-search-page-with-iterator",
+        "after": [
+          {
+            "result": {
+              "duration": 151763900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9623327599,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "navigate to Dashboard Page",
+            "match": {
+              "location": "Step_Definition.navigate_to_Dashboard_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4059874600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the Deal Search link option in the left side pane inside the IGM application",
+            "match": {
+              "location": "Step_Definition.click_on_the_Deal_Search_link_option_in_the_left_side_pane_inside_the_IGM_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145852130800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter values for all Deal Search filters and Verify the search result",
+            "match": {
+              "location": "Step_Definition.enter_values_for_all_Deal_Search_filters_and_Verify_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchFunctionalities"
+          },
+          {
+            "name": "@DealIterate"
+          },
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the Search functionality of story",
+    "description": "",
+    "id": "validating-the-search-functionality-of-story",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/diva6/eclipse-workspace/Informa_Search/src/test/resources/Feature_Files/Search.feature",
+    "tags": [
+      {
+        "name": "@SearchFunctionalities",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
